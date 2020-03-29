@@ -9,19 +9,24 @@ html, body {
 }
 
 main {
-    background-color: #f4976c;
+    background-color: #ff652f;
 }
 
-h1{
+h1, h2, .card-text, strong, li{
     color: #fce181;
     font-family: 'Signika', sans-serif;
     font-family: 'Prompt', sans-serif;
 }
 
+li{
+    margin-left: 30px;
+}
+a{
+    color: #16ffbd;
+}
+
 .card-text{
     padding: 20px;
-    font-family: 'Trebu4het MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fce181;
     font-size: 20px
 }
 
@@ -32,21 +37,23 @@ h1{
     overflow-y:scroll
 }
 
-/* .card-body p{
-    margin: 20px;
-} */
-/* .row {
-    padding: 20px;
-    font-family: 'Gotu', sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-} */
+.btn {
+    margin: 15px;
+    border-radius: 1px;
+    background-color: #747474;
+    border-style: solid;
+    border-color: #b4dfe5;
+    color: #fce181;
+}
 
+.btn-secondary:not(:disabled):not(.disabled).active{
+    color: #16ffbd;
+}
 
 .footer {
     width: 100%;
     height: 10%;
-    background-color: #303c6c;
+    background-color: #272727;
     color: #fce181;
     padding: 15px;
     font-size: 12px;
