@@ -43,8 +43,21 @@ nav {
     margin-bottom: 0px;
 }
 
+a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 #index{
     color: #fce181;
+}
+
+#index:hover {
+    border: 1px;
+    border-style: solid;
+    border-color: #b4dfe5;
+    color: #ff652f;
+    text-decoration: none;
 }
 
 #active{
