@@ -1,0 +1,43 @@
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main-content{
+    display: block;
+    position: relative;
+    height: 90%;
+    overflow-y:scroll
+}
+
+main{
+    background-color: #ff652f;
+}
+.card-body p{
+    margin: 20px;
+}
+
+.row h1{
+    padding: 20px;
+    font-family: 'Trebu4het MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #272727;
+    color: #fce181;
+}
+
+nav {
+    padding: 5px;
+    font-size: 25px;
+    background-color: #fce181;
+}
+
+.row h2{
+    padding: 20px;
+    font-family: 'Trebu4het MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
