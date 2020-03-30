@@ -16,10 +16,14 @@ html, body {
 }
 
 main{
-    background-color: #ff652f;
+    background-color: #747474;
 }
 .card-body p{
     margin: 20px;
+}
+
+.wrapper{
+    background-color: #ff652f;
 }
 
 .row h1{
@@ -35,6 +39,10 @@ nav {
     background-color: #272727;
 }
 
+.navbar{
+    margin-bottom: 0px;
+}
+
 #index{
     color: #fce181;
 }
@@ -46,6 +54,6 @@ nav {
 .row h2{
     padding: 20px;
     font-family: 'Trebu4het MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #272727;
+    color: #ff652f;
 }
