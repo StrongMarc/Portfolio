@@ -6,6 +6,7 @@ portfolioBtn.onclick = function() {
     portfolioPage();
 }
 
+//https://www.w3schools.com/jsref/met_loc_assign.asp
 function portfolioPage() {
     window.location.assign("./portfolio.html")
 }

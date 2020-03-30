@@ -32,6 +32,9 @@ main{
 nav {
     padding: 5px;
     font-size: 25px;
+}
+
+.navbar{
     background-color: #fce181;
 }
 
