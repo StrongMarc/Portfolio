@@ -18,7 +18,7 @@ main {
     background-color: #ff652f;
 }
 
-h1, h2, .card-text, strong, li{
+h1, h2, .card-text, strong, li, {
     color: #fce181;
     font-family: 'Signika', sans-serif;
     font-family: 'Prompt', sans-serif;
@@ -43,7 +43,26 @@ a{
     overflow-y:scroll
 }
 
-.btn {
+#resume{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    border: 1px solid ;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+   
+}
+
+#resume:hover {
+    border: none;
+    color: #333;
+    text-decoration: none;
+  }
+
+.btn, #resume {
     margin: 15px;
     border-radius: 1px;
     background-color: #747474;
@@ -55,6 +74,7 @@ a{
 .btn-secondary:not(:disabled):not(.disabled).active{
     color: #16ffbd;
 }
+
 
 .footer {
     width: 100%;
