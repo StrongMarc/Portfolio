@@ -1,3 +1,15 @@
+// Portfolio button to view portfolio page
+var portfolioBtn = document.querySelector("#portfolio");
+
+// Generate GitHub profile by selecting button to view 
+portfolioBtn.onclick = function() {
+    portfolioPage();
+}
+
+function portfolioPage() {
+    window.location.assign("./portfolio.html")
+}
+
 // GitHub button to GitHub profile
 var gitHubBtn = document.querySelector("#GitHub");
 
@@ -14,18 +26,6 @@ function gitHubPage() {
 var linkedInBtn = document.querySelector("#linkedIn");
 
 // Generate LinkedIn profile by selecting button to view 
-linkedInBtn.onclick = function() {
-    linkedInPage();
-}
-
-function linkedInPage() {
-    window.location.assign("https://linkedin.com/in/marc-strong-3892548")
-}
-
-// Resume button to resume .pdf
-var linkedInBtn = document.querySelector("#linkedIn");
-
-// Generate resume by selecting button to view 
 linkedInBtn.onclick = function() {
     linkedInPage();
 }
