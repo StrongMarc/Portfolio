@@ -32,10 +32,15 @@ main{
 nav {
     padding: 5px;
     font-size: 25px;
+    background-color: #272727;
 }
 
-.navbar{
-    background-color: #fce181;
+#index{
+    color: #fce181;
+}
+
+#active{
+    color: #16ffbd;
 }
 
 .row h2{
