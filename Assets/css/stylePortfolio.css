@@ -52,6 +52,9 @@ a{
 }
 
 #index{
+    border: 1px;
+    border-style: solid;
+    border-color: #272727;
     color: #fce181;
 }
 
