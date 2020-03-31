@@ -87,6 +87,10 @@ a{
     text-align: center;
  }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 576px) {
+ button, a{
+     width: 90%;
+ }
+
  
 }
