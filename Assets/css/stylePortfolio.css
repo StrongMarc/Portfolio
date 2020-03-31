@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
+    /* https://stackoverflow.com/questions/18462808/responsive-image-align-center-bootstrap-3 */
     margin: 0 auto;
 }
 
