@@ -10,7 +10,6 @@ Marc Strong portfolio page that links to examples of completed work/projects, Gi
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
-* [Tests](#Tests)
 * [Questions](#Questions)
 
 ## Installation: 
