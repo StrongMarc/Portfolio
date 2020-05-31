@@ -11,6 +11,10 @@ function portfolioPage() {
     window.location.assign("./portfolio.html")
 }
 
+$(document).ready(function() {
+    
+});
+
 // GitHub button to GitHub profile
 var gitHubBtn = document.querySelector("#GitHub");
 
